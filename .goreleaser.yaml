@@ -19,6 +19,12 @@ builds:
       - linux
       - windows
       - darwin
+    main: ./main.go
+
+release:
+  github:
+    owner: darrenvechain
+    name: goreleaser-test
 
 archives:
   - format: tar.gz
