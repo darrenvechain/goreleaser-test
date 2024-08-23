@@ -4,6 +4,9 @@ on:
     tags:
       - v*
 
+# TODO: Fine tune the permissions
+permissions: write-all
+
 jobs:
   release:
     runs-on: ubuntu-latest
